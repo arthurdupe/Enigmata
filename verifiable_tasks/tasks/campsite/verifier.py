@@ -1,7 +1,7 @@
 import re
 import json
 
-LOG=True
+LOG=False
 
 
 def log(text):

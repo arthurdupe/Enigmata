@@ -55,7 +55,6 @@ def can_move(board, moves, lang):
             col = col[steps:] + col[:steps]
             state[row_or_col::K] = col
         else:
-            print(f"Out of the boundary: {move}")
             return False  # Return failure if out of bounds
         return tuple(state)
 

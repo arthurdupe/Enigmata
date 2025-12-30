@@ -49,7 +49,6 @@ def can_solve_puzzle(board, move_sequence, lang):
                 # Update empty space position
                 empty_row, empty_col = new_row, new_col
             else:
-                print('Out of the line')
                 return False  # Return failure if out of bounds
 
     return board_copy == goal_state  # Check if goal state is reached
